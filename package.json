@@ -1,6 +1,6 @@
 {
   "name": "ag-test-package-npm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "some description",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
@@ -8,7 +8,7 @@
     "/dist"
   ],
   "scripts": {
-    "publish": "npx tsc && npm publish"
+    "publish:me": "npx changeset version && tsc && npm publish"
   },
   "keywords": [],
   "author": "",

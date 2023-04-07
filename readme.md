@@ -51,3 +51,21 @@ import { sayHello } from 'ag-test-package-npm'
 
 console.log(sayHello("from tester"));
 ```
+
+Git stuff:
+git commit -m "first commit"
+git push -u origin main
+
+### test the package form external folder
+// without publishing
+
+npm link ../ag-test-package-npm
+
+//some tests
+```ts
+import { sayHello, sayHelloAgain, sayHelloThird } from 'ag-test-package-npm'
+
+console.log(sayHello("first method"));
+console.log(sayHelloAgain("second method"));
+console.log(sayHelloThird("thrid method"));
+```
