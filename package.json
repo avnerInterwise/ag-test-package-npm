@@ -1,0 +1,20 @@
+{
+  "name": "ag-test-package-npm",
+  "version": "1.0.0",
+  "description": "some description",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "publish": "npx tsc && npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@changesets/cli": "^2.26.1",
+    "typescript": "^5.0.3"
+  }
+}
