@@ -54,6 +54,8 @@ console.log(sayHello("from tester"));
 
 Git stuff:
 git commit -m "first commit"
+//will require specifying files
+git commit -m "add few stuff" --all
 git push -u origin main
 
 ### test the package form external folder
